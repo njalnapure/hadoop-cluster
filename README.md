@@ -51,7 +51,7 @@ Based on hadoop-base. Configure the Hadoop master node.
 Based on hadoop-base. Configure the Hadoop slave node.
 
 Following hierarchy shows the image dependancy:
-
+```
 --> Ubuntu:15.04
        |
        |
@@ -64,7 +64,7 @@ Following hierarchy shows the image dependancy:
                           --> hadoop-master
                           |
                           --> hadoop-slave
-
+```
 ##3. steps to build a 3 nodes Hadoop cluster
 
 #####a. pull image
